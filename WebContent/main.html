@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+<title>Image Slider</title>
+<style>
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+</style>
+</head>
+<body>
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Login As</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="login1.html">Admin</a>
+    <a href="Buyerlogin.html">Buyer</a>
+    <a href="advertiserlogin1.jsp">Advertiser</a>
+	<a href="agentlogin.html">Agent</a>
+  </div>
+ </div>
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<div id="wrapper">
+<div id="banner">
+<h1><img src="images/About-Real-Estate-Banner.jpg" width="1300" height="250" alt=""/></h1>
+</div><!---end of banner--->
+<div id="top">
+<h1> PROFOUND PROPERTY- THE ONE STOP HOME SHOP</h1>
+</div>
+</div>
+<div id="menu">
+<ul>
+<li><a href="about.html">About us</a>
+<ul>
+<li><a href="ourStaff.html">Our staff</a></li>
+<li><a href="Howwework.html">How we work</a></li>
+<li><a href="Ourfees.html">Our Fees</a></li>
+</ul>
+</ul>
+</li>
+<ul>
+<li><a href="sellyourhousehtml">Sell your house</a>
+<ul>
+<li><a href="List with us.html">List with us</a></li>
+<li><a href="1.html">Sold house prices</a></li>
+<li><a href="2.html">Market trends</a></li>
+<li><a href="3.html">Find an estate agent</a></li>
+</ul>
+</ul>
+</li>
+<ul>
+<li><a href="4.html">Buyer Home Search</a>
+<ul>
+<li><a href="5.html">House for sale</a></li>
+<li><a href="6.html">Travel time search</a></li>
+<li><a href="7.html">Smart map search</a></li>
+<li><a href="8.html">Market trends</a></li>
+</ul>
+</ul>
+</li>
+<ul>
+<li><a href="9.html">Rentals</a>
+<ul>
+<li><a href="10.html">List a Rental</a></li>
+<li><a href="11.html">Homes for rent</a></li>
+<li><a href="12.html">Rooms for rent</a></li>
+<li><a href="13.html">Find a room</a></li>
+<li><a href="14.html">Smart map search</a></li>
+<li><a href="15.html">Travel time search</a></li>
+</ul>
+</ul>
+</li>
+<ul>
+<li><a href="16.html">Home/Pet sitting</a>
+<ul>
+<li><a href="17.html">About house/pet sitting</a></li>
+<li><a href="18.html">house/pet sitters req</a></li>
+<li><a href="19.html">House/pet sitter profiles</a></li>
+</ul>
+</ul>
+</li>
+<ul>
+<li><a href="20.html">Advice</a>
+<ul>
+<li><a href="21.html">Real estate agencies</a></li>
+<li><a href="22.html">Real estate agents</a></li>
+<li><a href="23.html">Letting agents</a></li>
+<li><a href="24.html">Banks and Brokers</a></li>
+<li><a href="25.html">Move planner</a></li>
+<li><a href="26.html">Property news</a></li>
+<li><a href="27.html">Adding space</a></li>
+<li><a href="28.html">Bathroom</a></li>
+<li><a href="29.html">Buying</a></li>
+<li><a href="30.html">DIY</a></li>
+<li><a href="31.html">Energy</a></li>
+<li><a href="32.html">Exterior</a></li>
+<li><a href="33.html">Incresing value</a></li>
+<li><a href="34.html">Insurance</a></li>
+<li><a href="35.html">Kitchen and dinning</a></li>
+<li><a href="36.html">Landlords</a></li>
+<li><a href="37.html">Legal</a></li>
+<li><a href="38.html">Lightning</a></li>
+</ul>
+</ul>
+</li>
+<ul>
+<li><a href="39.html">Blog</a></li>
+</ul>
+<ul>
+<li><a href="40.html">FAQ</a></li>
+</ul>
+<ul>
+<li><a href="41.html">Contact us</a></li>
+</ul>
+</div>
+<div id="outerbox">
+<div id="sliderbox">
+<img src="images/2.jpg"/>
+<img src="images/3.jpg"/>
+<img src="images/4.jpg"/>
+<img src="images/index.jpg"/>
+</div>
+</div>
+<div style="text-align:center; margin:100px ; margin-top:300px;"><h2>Quick Property Search</h2>
+</dv>
+<div style="text-align:center;">
+	<div style="box-sizing: border-box; display: inline-block; width: auto; max-width: 480px; background-color: #FFFFFF; border: 2px solid #0361A8; border-radius: 5px; box-shadow: 0px 0px 8px #0361A8; margin: 50px auto auto; margin-top:30px;">
+	
+	<div style="background: ; padding: 15px" id="ap_style">
+	<style type="text/css" scoped>
+	#ap_style td { text-align:left; font-family: verdana,arial; color: #064073; font-size: 1.00em; }
+	#ap_style input { border: 1px solid #CCCCCC; border-radius: 5px; color: #666666; display: inline-block; font-size: 1.00em;  padding: 5px; }
+	#ap_style input[type="text"], input[type="password"] { width: 100%; }
+	#ap_style input[type="button"], #ap_style input[type="reset"], #ap_style input[type="submit"] { height: auto; width: auto; cursor: pointer; box-shadow: 0px 0px 5px #D4D4D4; background-color:#0000CC; color:#FFFFFF; float:right; text-align:right; margin-top: 10px; margin-left:10px;}
+	#ap_style input[type="button"], #ap_style input[type="reset"], #ap_style input[type="submit"] { height: auto; width: auto; cursor: pointer; box-shadow: 0px 0px 5px #0361A8; float:right; text-align:right; margin-top: 10px; margin-left:10px;}
+	#ap_style table.center { margin-left:auto; margin-right:auto; }
+	#ap_style .error { font-family: verdana,arial; color: #D41313; font-size: 1.00em; }
+	</style>
+<input type="hidden" name="action" value="login">
+<input type="hidden" name="hide" value="">
+<lable>Requirement</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<select><option>Buy&nbsp;&nbsp;</option>
+<option>Sell</option></select><br>
+
+<lable>Property Type</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select>
+<option>Commercial&nbsp;&nbsp;</option>
+<option>Residential</option></select><br>
+
+<lable>Property Category</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<select><option>Apartments&nbsp;&nbsp;</option>
+<option>Plots</option>
+<option>Stores</option>
+<option>Offices</option></select><br>
+
+<lable>State</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select><option>New Zealand&nbsp;&nbsp;</option></select><br>
+
+<lable>City</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<select><option>Auckland&nbsp;&nbsp;</option>
+<option>Wellington</option>
+<option>Nelson</option>
+<option>Dunedin</option>
+<option>Christchruch</option>
+<option>Hamilton</option>
+<option>Tauranga</option>
+<option>Napier</option>
+<option>Palmerston</option>
+<option>Rotorua</option></select><br>
+
+<lable>Price Range</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<select><option>$10,000&nbsp;&nbsp;</option>
+<option>$20,000</option>
+<option>$35,000</option>
+<option>$55,000</option>
+<option>$60,000</option>
+</select>
+<lable>to</lable>
+<select><option>$65,000</option>
+<option>$80,000</option>
+<option>$92,000</option>
+<option>$96,000</option>
+<option>$126,000</option></select><br>
+
+
+<input type="Submit" value="Reset"><input type="Submit" value="Submit">
+</form>
+</div></div>
+</div>
+</body>
+</html>

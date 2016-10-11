@@ -1,0 +1,168 @@
+/* CSS Document */
+*
+{
+margin:0px;
+padding:0px;
+border:0px;
+}
+#Login{
+background-color:powderblue;
+border:none;
+color:white;
+padding:15px 32px;
+text-align:center
+text-decoration:none;
+display:inline-block;
+font-size:16px;
+float:right;
+}
+
+body {background-color:powderblue;}
+#banner
+{
+display:inline-block;
+float:center;
+}
+#banner-div
+{
+height:40px;
+line-height:70px;
+float:center;
+width:600px;
+}
+#banner
+{
+margin-left:20px;
+margin-top:5px;
+border:1px solid grey;
+padding:10px;
+box-shadow:5px 5px solid grey;
+background-color:#3C8DAD;
+}
+#top-right
+{
+display:inline-block;
+float:right;
+}
+#top_div
+{
+height:40px;
+line-height:40px;
+margin-right:40px;
+text-decoration:none;
+}
+#top
+{
+width:900px;
+margin:auto;
+height:50px;
+margin-top:5px;
+}
+#menu
+{
+margin-left:50px;
+}
+#menu ul
+{
+list-style:none;
+}
+#menu ul li
+{ 
+background-color:red;
+border:1px solid white;
+width:140px;
+height:35px;
+text-align:center;
+line-height:35px;
+float:left;
+position:relative;
+border-radius:7px;
+z-index:1;
+}
+#menu ul li a
+{
+text-decoration:none;
+color:white;
+display:block;
+}
+#menu ul li a:hover
+{
+background-color:green;
+border-radius:7px;
+}
+#menu ul ul
+{
+position:absolute;
+display:none;
+}
+#menu ul li:hover > ul
+{
+display:block;
+}
+#clear
+{
+clear:both;
+}
+#outerbox
+{
+width:276px;
+overflow:hidden;
+float:left;
+}
+#sliderbox
+{
+position:absolute;
+width:1104px;
+animation-name:pallak;
+animation-duration:10s;
+animation-iteration-count:infinite;
+margin-left:80px;
+}
+#sliderbox img
+{
+float:left;
+margin-top:10px;
+margin-left:25px;
+border:1px solid grey;
+padding:10px;
+box-shadow:5px 5px solid grey;
+background-color:#3C8DAD;
+height:150px;
+}
+@keyframes pallak{
+0%
+{
+left:0px;
+}
+20%
+{
+left:0px;
+}
+25%
+{
+left:-276px;
+}
+45%
+{
+left:-276px;
+}
+50%
+{
+left:-552px;
+}
+70%
+{
+left:-552px;
+}
+75%
+{
+left:-828px;
+}
+95%
+{
+left:-828px;
+}
+100%
+{
+left:-1104px;
+}
